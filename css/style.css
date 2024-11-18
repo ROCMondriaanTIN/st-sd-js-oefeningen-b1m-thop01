@@ -8,7 +8,25 @@ img{
     height:200px
 }
 
+button{
+    width: 80px;
+    height:80px;
+    font-size: 32pt;
+    border-radius: 50%;
+}
+
+
 .profile{
     border:3px solid gray;
     padding:10px;
+    max-width:500px;
 }
+
+.profile.male{
+    background: lightblue;
+}
+
+.profile.female{
+    background: lightpink;
+}
+
