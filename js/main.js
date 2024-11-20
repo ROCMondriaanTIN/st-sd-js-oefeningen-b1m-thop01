@@ -26,7 +26,12 @@ addButton.addEventListener("click", function (event){
     const status = "offline";
     const age = prompt("age: ");
     let profileHTML = createProfileDiv(firstName, lastName, sex,age); // aanroepen van een functie
+    
+    // wat is het verschil?
     profilesDiv.innerHTML += profileHTML;
+    profilesDiv.innerHTML = profileHTML;
+
+
 });
 
 // een funtie dat een een profiel aanmaakt in html
