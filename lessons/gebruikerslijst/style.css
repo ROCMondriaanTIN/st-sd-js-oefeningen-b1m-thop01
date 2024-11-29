@@ -1,0 +1,10 @@
+li{
+    width:3cm;
+    height:1cm;
+    padding:10px;
+    list-style: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+}

@@ -1,0 +1,28 @@
+/* My prompt was create a nice style for the class car */
+.car {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 300px;
+    transition: 0.2s;
+}
+
+.car:hover {
+    transform: scale(1.05);
+}
+
+.car h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car p {
+    font-size: 16px;
+    line-height: 1.5;
+}
