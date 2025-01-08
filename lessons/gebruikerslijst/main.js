@@ -55,3 +55,10 @@ function showUsers(){
     }
 }   
 
+document.querySelector(".test").innerHTML = `
+        <div> 
+            <h2> ${"hello"} </h2>
+            <p> ${"OKEJAH"} </p>
+        </div>
+    
+    `; 
